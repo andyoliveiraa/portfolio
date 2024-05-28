@@ -1,0 +1,52 @@
+.navbar {
+    background-color: #000;
+}
+  
+.navbar-brand img {
+    height: 24px;
+    margin-right: 10px;
+}
+  
+.nav-link.active {
+    color: #FFF;
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+  
+.nav-link {
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+  
+.nav-link:hover {
+    color: #ccc;
+}
+  
+.navbar-nav .nav-item:last-child .nav-link {
+    margin-right: 0;
+}
+
+.texto_principal {
+    color: #04100F;
+    font-family: Satoshi;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+  
+.imagem_principal {
+    max-width: 100%;
+    height: auto;
+}
+  
