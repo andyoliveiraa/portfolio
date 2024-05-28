@@ -50,6 +50,7 @@
     height: auto;
 }
   
+
 .job-icon {
     display: flex;
     align-items: center;
@@ -67,8 +68,26 @@
 .job-title {
     text-align: center;
     margin-top: 10px;
+    color: #04100F;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .job-container {
     margin-bottom: 30px;
+}
+
+.texto-trabalhos{
+    color: #04100F;
+    font-family: Satoshi;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+    padding-bottom: 50px;
 }
