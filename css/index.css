@@ -91,3 +91,76 @@
     text-align: center;
     padding-bottom: 50px;
 }
+
+.butao-trabalhos{
+    border-radius: 8px;
+    background: #192BC2;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.10);
+    padding: 5px 20px;
+}
+
+.texto-butao-t{
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 45px */
+    text-decoration: none;
+}
+
+
+.title-qualification{
+    padding-top: 40px;
+    color: #04100F;
+    font-family: Satoshi;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.qualification-text {
+    margin-bottom: 15px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.brand-logo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.titulo_trabalhei{
+    color: #04100F;
+    font-family: Satoshi;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.butao-sobre-mim{
+    border-radius: 8px;
+    background: #192BC2;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.10);
+    padding: 5px 20px;
+}
+
+.textobutao{
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 45px */
+    text-decoration: none;
+}
