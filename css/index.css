@@ -164,3 +164,37 @@
     line-height: 150%; /* 45px */
     text-decoration: none;
 }
+
+
+.footer {
+    background-color: #04100f;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ddd;
+}
+
+.footer p {
+    font-family: Satoshi;
+    margin: 0;
+    font-size: 14px;
+}
