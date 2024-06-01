@@ -198,3 +198,188 @@
     margin: 0;
     font-size: 14px;
 }
+
+@media (max-width: 1000px) {
+    .texto_principal{
+        font-size: 50px;
+        align-items: center;
+    }
+    .job-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        margin: auto;
+    }
+    
+    .job-icon img {
+        max-width: 50px;
+        max-height: 50px;
+    }
+    
+    .job-title {
+        text-align: center;
+        margin-top: 10px;
+        color: #04100F;
+        text-align: center;
+        font-family: Satoshi;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .job-container {
+        margin-bottom: 30px;
+    }
+    
+    .texto-trabalhos{
+        color: #04100F;
+        font-family: Satoshi;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    
+    .butao-trabalhos{
+        border-radius: 8px;
+        background: #192BC2;
+        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.10);
+        padding: 5px 20px;
+    }
+    
+    .texto-butao-t{
+        color: #FFF;
+        font-family: Satoshi;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 45px */
+        text-decoration: none;
+    }
+    .title-qualification{
+        padding-top: 40px;
+        color: #04100F;
+        font-family: Satoshi;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-align: center;
+    }
+    
+    .qualification-text {
+        color: #000;
+        font-family: Satoshi;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-right: 30px;
+        padding-left: 20px;
+
+    }
+    
+    .logo_epm{
+        visibility: hidden;
+    }
+
+    .logo_ubi{
+        visibility: hidden;
+    }
+
+    .brand-logo {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+
+    .logos_marcas1{
+        width: 70%;
+    }
+
+    .logos_marcas2{
+        width: 70%;
+    }
+
+    .logos_marcas3{
+        width: 70%;
+    }
+    
+    .titulo_trabalhei{
+        color: #04100F;
+        font-family: Satoshi;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+    
+    .butao-sobre-mim{
+        border-radius: 8px;
+        background: #192BC2;
+        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.10);
+        padding: 5px 20px;
+    }
+    
+    .textobutao{
+        color: #FFF;
+        font-family: Satoshi;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 45px */
+        text-decoration: none;
+    }
+    
+    
+    .footer {
+        background-color: #04100f;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        margin-top: auto;
+    }
+    
+    .social-icons {
+        margin-bottom: 10px;
+    }
+    
+    .social-icons a {
+        color: #fff;
+        margin: 0 10px;
+        text-decoration: none;
+        font-size: 20px;
+        transition: color 0.3s;
+    }
+    
+    .social-icons a:hover {
+        color: #ddd;
+    }
+    
+    .footer p {
+        font-family: Satoshi;
+        margin: 0;
+        font-size: 10px;
+    }
+}
+
+.logos_marcas1{
+    width: 70%;
+}
+
+.logos_marcas2{
+    width: 70%;
+}
+
+.logos_marcas3{
+    width: 70%;
+}
