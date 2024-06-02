@@ -1,0 +1,268 @@
+.center{
+    margin: auto;
+    display: block;
+}
+
+.competencias{
+    width: 50%;
+    margin: auto;
+    display: block;
+    padding: 50px;
+}
+
+.titulo_principal{
+    color: #04100F;
+    font-family: Satoshi;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+    padding: 30px;
+}
+
+.texto1{
+    color: #000;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.titulo_formacoes{
+    color: #000;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 20px;
+}
+
+.imagem_minha{
+    width: 70%;
+}
+
+.titulo-f-1{
+    color: #000;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+}
+
+
+.navbar {
+    background-color: #000;
+}
+  
+.navbar-brand img {
+    height: 24px;
+    margin-right: 10px;
+}
+  
+.nav-link.active {
+    color: #FFF;
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+  
+.nav-link {
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+  
+.nav-link:hover {
+    color: #ccc;
+}
+  
+.navbar-nav .nav-item:last-child .nav-link {
+    margin-right: 0;
+}
+
+
+.footer {
+    background-color: #04100f;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ddd;
+}
+
+.footer p {
+    font-family: Satoshi;
+    margin: 0;
+    font-size: 14px;
+}
+
+@media (max-width: 1000px) {
+    .center{
+        margin: auto;
+        display: block;
+        width: 50%;
+    }
+    
+    .competencias{
+        width: 100%;
+        margin: auto;
+        display: block;
+        padding: 50px;
+    }
+    
+    .titulo_principal{
+        color: #04100F;
+        font-family: Satoshi;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-align: center;
+        padding: 30px;
+    }
+    
+    .texto1{
+        color: #000;
+        font-family: Satoshi;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        align-items: center;
+        padding-top: 70px;
+    }
+    
+    .titulo_formacoes{
+        color: #000;
+        text-align: center;
+        font-family: Satoshi;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 20px;
+    }
+
+    .imagem_minha{
+        display: none;
+    }
+    
+    .titulo-f-1{
+        color: #000;
+        text-align: center;
+        font-family: Satoshi;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 10px;
+    }
+    
+    
+    .navbar {
+        background-color: #000;
+    }
+      
+    .navbar-brand img {
+        height: 24px;
+        margin-right: 10px;
+    }
+      
+    .nav-link.active {
+        color: #FFF;
+        -webkit-text-stroke-width: 1;
+        -webkit-text-stroke-color: #000;
+        font-family: Satoshi;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration-line: underline;
+    }
+      
+    .nav-link {
+        color: #FFF;
+        font-family: Satoshi;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+      
+    .nav-link:hover {
+        color: #ccc;
+    }
+      
+    .navbar-nav .nav-item:last-child .nav-link {
+        margin-right: 0;
+    }
+    
+    
+    .footer {
+        background-color: #04100f;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        margin-top: auto;
+    }
+    
+    .social-icons {
+        margin-bottom: 10px;
+    }
+    
+    .social-icons a {
+        color: #fff;
+        margin: 0 10px;
+        text-decoration: none;
+        font-size: 20px;
+        transition: color 0.3s;
+    }
+    
+    .social-icons a:hover {
+        color: #ddd;
+    }
+    
+    .footer p {
+        font-family: Satoshi;
+        margin: 0;
+        font-size: 14px;
+    }
+}
