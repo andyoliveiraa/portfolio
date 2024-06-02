@@ -1,0 +1,153 @@
+/* NAVBAR */
+
+.navbar {
+    background-color: #000;
+}
+  
+.navbar-brand img {
+    height: 24px;
+    margin-right: 10px;
+}
+  
+.nav-link.active {
+    color: #FFF;
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+  
+.nav-link {
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+  
+.nav-link:hover {
+    color: #ccc;
+}
+  
+.navbar-nav .nav-item:last-child .nav-link {
+    margin-right: 0;
+}
+
+/* Conteudo Principal */
+
+.titulo_contactos{
+    color: #000;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: Satoshi;
+}
+
+.contactos{
+    padding: 16px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: none;
+}
+
+.imagem_mim{
+    padding-left: 80px;
+}
+
+.card_contactos{
+    padding-top: 60px;
+}
+
+body {
+    background-color: #e9ecef;
+    font-family: Arial, sans-serif;
+}
+
+.cartao_Contac {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #192BC2;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.botao-enviar{
+    padding: 20px;
+}
+
+
+.contact-form {
+    text-align: center;
+    padding: 20px;
+    font-family: Satoshi;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.form-group label {
+    color: #ffffff;
+    padding: 10px;
+}
+
+.btn-primary {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    -webkit-text-fill-color: #192BC2;
+    stroke: #000;
+
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 15px;
+    }
+}
+
+/* Footer */
+
+.footer {
+    background-color: #04100f;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ddd;
+}
+
+.footer p {
+    font-family: Satoshi;
+    margin: 0;
+    font-size: 14px;
+}

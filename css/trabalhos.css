@@ -134,6 +134,8 @@
     font-size: 14px;
 }
 
+/* Responsividade */
+
 @media (max-width: 1000px) {
     .logo_foguetes{
         width: 100%;
